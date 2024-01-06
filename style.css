@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
+}
+.r{
+    color: #FD6E0A;
+font-size: 45px;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747 ;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    font-size: 20px;
+font-weight: 700;
+color: white;
+padding: 18px 35px;
+}
